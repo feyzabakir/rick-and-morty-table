@@ -8,13 +8,13 @@ const NotFoundPage = () => {
     <div className="not-found-container">
       <div className="not-found-content">
         <div className="error-code">404</div>
-        <h1 className="error-title">Sayfa Bulunamadı</h1>
+        <h1 className="error-title">Page Not Found</h1>
         <p className="error-message">
-          Aradığınız sayfa taşınmış, silinmiş veya hiç var olmamış olabilir.
+        The page you are looking for may have been moved, deleted or never existed.
         </p>
         <button className="back-home-button" onClick={() => navigate('/')}>
           <ArrowLeft size={20} />
-          Ana Sayfaya Dön
+          Back to Home Page
         </button>
       </div>
       <div className="error-image">
